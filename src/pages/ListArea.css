@@ -1,0 +1,35 @@
+.list{
+    width: 700px;
+    height: 799px;
+    background-color: #0A66BB;
+    padding-left: 20px;
+    text-align: center;
+}
+p{
+    text-decoration-color: #F3F3F3;
+}
+
+.normal{
+    width: 600px;
+    height: 40px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.hover{
+    width: 600px;
+    height: 40px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.complete{
+    width: 600px;
+    height: 40px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    border-radius: 10px;
+    text-align: left;
+}

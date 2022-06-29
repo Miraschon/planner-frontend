@@ -4,6 +4,8 @@
     background-color: #0A66BB;
     padding-left: 20px;
     text-align: center;
+    margin-left: 15%;
+    display: table-cell;
 }
 p{
     text-decoration-color: #F3F3F3;

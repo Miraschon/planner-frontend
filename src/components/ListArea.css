@@ -4,9 +4,24 @@
     background-color: #0A66BB;
     padding-left: 20px;
     text-align: center;
-    margin-left: 15%;
-    display: table-cell;
+    position: absolute;
+    top: 42px;
+    left: 200px;
+    z-index: 2;
 }
+
+.cover{
+    width: 700px;
+    height: 799px;
+    background-color: #0A66BB;
+    padding-left: 20px;
+    text-align: center;
+    position: absolute;
+    left: 12px;
+    top: 42px;
+    z-index: 2;
+}
+
 p{
     text-decoration-color: #F3F3F3;
 }

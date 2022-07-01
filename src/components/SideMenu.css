@@ -1,9 +1,10 @@
 .menu{
-width: 15%;
+width: 200px;
     height: 799px;
     background-color: #F3F3F3;
-    float: left;
-    display: table-cell;
+    position: relative;
+    z-index: 2;
+    top: 10px;
 }
 h1{
     padding-left: 30px;

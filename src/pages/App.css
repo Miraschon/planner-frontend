@@ -7,7 +7,7 @@
   height: 200px;
   margin: auto;
   padding: 10px;
-  display: table;
+  position: absolute;
 }
 
 .App-logo {

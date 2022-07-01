@@ -4,8 +4,8 @@ import ListArea from "../components/ListArea";
 
 function App() {
     return <div className={"container"}>
-        <div><SideMenu/></div>
-        <div><ListArea/></div>
+        <SideMenu/>
+       <ListArea/>
     </div>
 }
 

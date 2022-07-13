@@ -1,27 +1,21 @@
 import * as React from "react"
 import './ListArea.css'
-import {useState} from "react";
 import OpenCloseButton from "./OpenCloseButton";
+import {useState} from "react";
 
-function ListArea() {
-    const [position, setPosition] = useState('list')
+function ListArea(props) {
+
+    let {isShow, toggleShow}= props
+    let style='list'
+
+    console.log('isShow= ' + isShow)
+
+        return <div className={'list'} id={"listArea"}>
+            <p>Today</p>
+            <OpenCloseButton onChange={toggleShow} position={'list'}/>
+        </div>
 
 
-    function changePosition() {
-        if (position === 'cover') {
-            setPosition('list')
-
-        } else {
-            setPosition('cover')
-        }
-        return position
-    }
-
-
-    return <div className={position} id={"listArea"}>
-        <p>Today</p>
-        <OpenCloseButton onChange={changePosition} position={position}/>
-    </div>
 }
 
 export default ListArea

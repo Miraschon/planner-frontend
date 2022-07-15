@@ -10,6 +10,8 @@ function ListArea(props) {
 
    // console.log('isShow= ' + isShow)
 
+
+
         return <div className={'list'} id={"listArea"}>
             <p>Today</p>
             <OpenCloseButton onChange={toggleShow} position={'list'}/>

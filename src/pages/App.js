@@ -4,13 +4,14 @@ import ListArea from "../components/ListArea";
 import {useState} from "react";
 
 function App() {
-    const [isShow, setShow] = useState('true')
+    const [isShow, setShow] = useState(true)
 
     function toggleShow(){
+        console.log('isShow has type',typeof isShow)
         if(isShow){
-            setShow('false')
+            setShow(false)
         }else{
-            setShow('true')
+            setShow(true)
         }
     }
 

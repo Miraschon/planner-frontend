@@ -7,7 +7,7 @@ function SideMenu(props){
     let {isShow}= props
     let style='show'
     console.log('Style='+style)
-    if(isShow==='true') {
+    if(isShow) {
        // console.log('Style='+style)
         return <div className={style} id={"myDIV"}>
             <h1>Today</h1>

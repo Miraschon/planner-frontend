@@ -14,7 +14,7 @@ function ListArea(props) {
 
         return <div className={'list'} id={"listArea"}>
             <p>Today</p>
-            <OpenCloseButton onChange={toggleShow} position={'list'}/>
+            <OpenCloseButton onChange={toggleShow} isShow={isShow}/>
         </div>
 
 

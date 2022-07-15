@@ -4,8 +4,8 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import * as React from "react";
 
 function OpenCloseButton(props){
-    let {position, onChange}= props
-    if(position==='list'){
+    let {isShow, onChange}= props
+    if(isShow){
         return <IconButton className={"close"} onClick={onChange}>
             <ArrowBackIosIcon sx={{ fontSize: "40px" }} style={{ color: 'white' }}/>
         </IconButton>

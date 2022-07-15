@@ -8,14 +8,15 @@ function SideMenu(props){
     let style='show'
     console.log('Style='+style)
     if(isShow==='true') {
-        console.log('Style='+style)
+       // console.log('Style='+style)
         return <div className={style} id={"myDIV"}>
             <h1>Today</h1>
             <IconButton className={"add"}><PlaylistAddIcon sx={{fontSize: "45px"}}/></IconButton>
         </div>
     }else{
-        console.log('Style='+style)
+
         style='hide'
+        console.log('Style='+style)
         return <div className={style} id={"myDIV"}>
         </div>
     }
